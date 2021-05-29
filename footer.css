@@ -1,0 +1,79 @@
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="file"] {
+    line-height: 40px;
+    border: none;
+    width: 20%;
+    text-indent: 7px;
+    border-radius: 7px;
+    outline: none;
+    margin-left: 30px;
+}
+
+.file{
+    margin-top: 16px;
+}
+
+.formulaire{
+    background-color: rgba(187, 186, 186, 0.418);
+    filter: drop-shadow(0px 0px 3px silver);
+    width: 50%;
+    position: relative;
+    left: +25%;
+    top: +10%;
+}
+
+#titre, #contenu{
+    filter: drop-shadow(0px 0px 3px silver);
+    width: 80%;
+}
+
+#contenu{
+    line-height: initial;
+    height: 100px;
+}
+
+
+
+input:hover {
+    outline: none;
+    filter: drop-shadow(0px 0px 3px green);
+}
+
+input:active {
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+    text-align: center;
+    line-height: 40px;
+    width: 140px;
+    background-color: green;
+    filter: drop-shadow(0px 0px 2px silver);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+    color: green;
+}
+
+footer{
+    position: relative;
+    top: +10%;
+}
+
+
+body{
+	background: url("./assets/img/dashboad.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
